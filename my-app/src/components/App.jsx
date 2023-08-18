@@ -1,18 +1,17 @@
-// import painting from '../painting.json';
-// import { GallaryItem } from './GalaryItem/GallaryItem';
-// import { GalleryList } from './GalleryList/GalleryList';
-// import { Container } from './Container/Container';
-
-// const item = painting[0]
 import recipes from '../recipies.json';
 import { RecipesList } from './RecipesList/RecipesList';
+import {
+  GlobalStyle
+} from './GlobalStyles';
+// import { Counter } from './Counter/Counter';
+// import { Dropdown } from './Dropdown/Dropdown';
 export function App() {
     return (
       <>
-        <RecipesList recipes={recipes} />
-      {/* <Container title="Title">
-        <GalleryList items={painting} />
-        </Container> */}
+        <GlobalStyle />
+        {/* <Dropdown/> */}
+        <RecipesList recipes={recipes}/> 
+        {/* {/* <Counter initivalValue={0}/>} */}
       </>
 )
 }

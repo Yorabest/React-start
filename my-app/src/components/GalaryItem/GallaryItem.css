@@ -1,0 +1,26 @@
+.GallaryItem {
+    background: green;
+    padding: 15px;
+}
+
+.GallaryItem .title {
+    color: blueviolet
+}
+
+.GallaryItem .image {
+    width: 200px;
+}
+
+.btn {
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}

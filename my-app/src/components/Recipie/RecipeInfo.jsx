@@ -1,6 +1,8 @@
+import {InfoItem,  Info} from './RecipeInfo.styled'
+
 export const RecipeInfo = ({info, icon: Icon}) => {
-    return <li>
+    return <InfoItem>
         <Icon size={30} />
-        <p>{info}</p>
-    </li>
+        <Info>{info}</ Info>
+    </InfoItem>
 }
